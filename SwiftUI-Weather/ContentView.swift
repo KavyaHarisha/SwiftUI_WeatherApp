@@ -12,6 +12,7 @@ struct ContentView: View {
     @State private var isNight = false
     
     var body: some View {
+        
         ZStack{
             BackgroundView(isNight: $isNight)
             VStack{
